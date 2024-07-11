@@ -43,10 +43,7 @@ public class averageWaitingTime {
         //                         {20,1}
                                 
         //                     };
-        int n =customers.length;
-        int m = customers[0].length;
-        System.out.println(m + " " + n );
-        // int arrival_time = 0;
+        int n =customers.length;        
         int waiting_time = 0;
         int completed_time = 0;
         int WT[] = new int [n];
